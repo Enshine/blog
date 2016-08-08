@@ -4,6 +4,7 @@ class PostsController < ApplicationController
 	end
 
 	def new
+		
 	end
 
 	def create
@@ -22,3 +23,4 @@ class PostsController < ApplicationController
 			params.require(:post).permit(:title, :body)
 		end
 end
+
