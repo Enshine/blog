@@ -1,0 +1,1230 @@
+/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 10, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 21, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 34, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 53, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 64, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 73, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 82, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 95, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 105, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 118, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 128, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 137, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 146, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 155, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 164, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 173, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 182, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 190, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 194, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 205, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 213, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 225, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 237, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 246, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 260, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 273, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 282, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 292, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 303, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 314, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 326, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 337, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 350, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 363, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 372, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 382, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 392, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 401, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 410, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 420, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 9, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 20, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 33, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 52, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 63, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 72, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 81, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 94, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 104, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 117, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 127, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 136, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 145, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 154, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 163, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 172, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 181, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 189, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 193, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 204, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 212, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 224, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 236, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 245, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 259, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 272, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 281, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 291, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 302, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 313, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 325, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 336, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 349, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 362, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 371, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 381, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 391, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 400, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 409, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 419, /home/alexandr/projects/blog/app/assets/stylesheets/_normalize.css.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* line 18, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 22, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+/* line 26, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 31, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar {
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: white;
+  padding: 7em 0 0 0;
+  border-right: 1px solid #d6dce0;
+}
+/* line 40, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar #img {
+  width: 40px;
+  position: absolute;
+  right: 4em;
+  top: 3em;
+}
+/* line 46, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar ul {
+  list-style: none;
+  text-align: right;
+  padding-right: 3em;
+}
+/* line 50, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar ul .category {
+  font-weight: 700;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: grey;
+}
+/* line 56, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar ul li {
+  padding: .5em 0;
+}
+/* line 58, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar ul li a {
+  color: #87CEEB;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+/* line 62, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar ul li a:hover {
+  color: #33acb7;
+}
+/* line 68, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar ul .active a {
+  color: #33acb7;
+}
+/* line 73, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar .sign_in {
+  position: absolute;
+  right: 3em;
+  top: 80%;
+  font-size: 1.0em;
+  color: #0000CD;
+  opacity: 0.3;
+}
+/* line 80, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#sidebar .sign_in:hover {
+  opacity: 0.5;
+}
+
+/* line 86, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+.button {
+  outline: none;
+  border: 2px solid #87CEEB;
+  padding: .5em 10.5em;
+  border-radius: 1.0em;
+  color: grey;
+}
+/* line 92, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+.button:hover {
+  border: 2px solid #4169E1;
+  color: #4169E1;
+  background: transparent;
+}
+/* line 96, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+.button:hover a {
+  color: #33acb7 !important;
+}
+
+/* line 102, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+.sb {
+  outline: none;
+  border: 1px solid #4169E1;
+  padding: .5em 1.5em;
+  border-radius: 0.5em;
+  color: #4169E1;
+}
+/* line 108, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+.sb:hover {
+  border: 1px solid #4169E1;
+  color: #33acb7;
+}
+
+/* line 115, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 123, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content {
+  margin-left: 250px;
+}
+/* line 125, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #header {
+  padding: 1em 3em;
+  border-bottom: 1px solid #d6dce0;
+  background: #E0FFFF;
+  opacity: 0.6;
+  color: grey;
+}
+/* line 131, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #header p {
+  display: inline;
+}
+/* line 134, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #header a {
+  color: #9eafba;
+  text-decoration: none;
+}
+/* line 138, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #header .buttons {
+  float: right;
+  margin-top: -6px;
+}
+/* line 141, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #header .buttons .button {
+  font-size: .8em;
+  margin-left: .5em;
+}
+/* line 147, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper {
+  padding: 3em;
+  border-bottom: 1px solid #d6dce0;
+}
+/* line 150, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .title {
+  margin: 0;
+}
+/* line 152, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .title a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #2a2f35;
+  font-size: 1.5em;
+}
+/* line 157, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .title a:hover {
+  color: #33acb7;
+}
+/* line 162, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .date_and_author {
+  color: #9eafba;
+  margin: .5em 0 0 0;
+}
+/* line 167, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content {
+  padding: 1em 3em;
+}
+/* line 169, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content .title {
+  font-weight: 500;
+  text-decoration: none;
+  color: #2a2f35;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+/* line 176, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content .body {
+  font-size: 1.1em;
+  line-height: 1.75;
+}
+/* line 180, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content .date_and_author {
+  color: #9eafba;
+  margin: .5em 0 2em 0;
+}
+/* line 185, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments h2 {
+  margin: 3em 0 1em 0;
+  border-bottom: 1px solid #d6dce0;
+  padding-bottom: 0.5em;
+}
+/* line 190, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments h3 {
+  margin-top: 2em;
+}
+/* line 193, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment {
+  border-bottom: 1px solid #d6dce0;
+  padding: 1.5em 2em;
+}
+/* line 196, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .clear_both {
+  clear: both;
+}
+/* line 199, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment:after {
+  clear: both;
+}
+/* line 202, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content {
+  float: left;
+}
+/* line 204, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content .comment_name {
+  margin: 1em 0 0 0;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+/* line 209, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content .comment_body {
+  font-size: 1.2em;
+  margin: 0.2em 0 0 0;
+}
+/* line 213, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content .comment_time {
+  margin-top: 1.2em;
+  font-size: .8em;
+}
+/* line 218, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .button {
+  float: right;
+}
+/* line 222, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments input[type="text"], #main_content #post_content #comments textarea {
+  width: 50%;
+}
+/* line 227, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper {
+  padding: 3em;
+}
+/* line 229, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #profile_image {
+  width: 300px;
+  float: left;
+  margin-right: 2em;
+}
+/* line 233, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #profile_image img {
+  width: 100%;
+  border-radius: 0.35em;
+}
+/* line 239, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #content h1 {
+  font-weight: 500;
+}
+/* line 242, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #content p {
+  font-size: 1.1em;
+  line-height: 1.75;
+}
+/* line 246, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #content a {
+  color: #33acb7;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* line 253, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content .links {
+  margin: 2em 0;
+}
+/* line 256, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content input[type="text"], #main_content input[type="email"], #main_content input[type="password"], #main_content textarea {
+  width: 90%;
+  border: 1px solid #d6dce0;
+  border-radius: .35em;
+  margin-top: 10px;
+  padding: .5em 1em;
+  line-height: 1.75;
+}
+/* line 264, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content input[type="text"] {
+  height: 35px;
+}
+/* line 267, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content textarea {
+  min-height: 180px;
+}
+/* line 270, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content input[type="submit"] {
+  outline: none;
+  background: transparent;
+  border: 1px solid #d6dce0;
+  padding: .5em 1.5em;
+  font-size: 1.1em;
+  border-radius: 1.5em;
+  margin-left: .5em;
+}
+/* line 278, /home/alexandr/projects/blog/app/assets/stylesheets/application.css.scss */
+#main_content input[type="submit"]:hover {
+  border: 1px solid #33acb7;
+  color: #33acb7;
+}
