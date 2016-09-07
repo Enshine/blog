@@ -33,13 +33,13 @@ a {
 	left: 0;
 	top: 0;
 	height: 100%;
-	background: #f5f7f9;
+	background: white;
 	padding: 7em 0 0 0;
 	border-right: 1px solid #d6dce0;
-	#logo {
+	#img {
 		width: 40px;
 		position: absolute;
-		right: 3em;
+		right: 4em;
 		top: 3em;
 	}
 	ul {
@@ -50,12 +50,12 @@ a {
 			font-weight: 700;
 			font-size: 0.7em;
 			text-transform: uppercase;
-			color: #33acb7;
+			color: grey;
 		}
 		li {
 			padding: .5em 0;
 			a {
-				color: #9eafba;
+				color: #87CEEB;
 				text-decoration: none;
 				transition: all .4s ease;
 				&:hover {
@@ -73,24 +73,41 @@ a {
 		position: absolute;
 		right: 3em;
 		top: 80%;
-		font-size: .8em;
-		color: #9eafba;
+		font-size: 1.0em;
+		color: #0000CD;
+		opacity: 0.3;
+		&:hover {
+					opacity: 0.5;
+					}
 	}
 }
 
 .button {
 	outline: none;
-	background: transparent;
-	border: 2px solid #d6dce0;
-	padding: .5em 4.5em;
+	border: 2px solid #87CEEB;
+	padding: .5em 10.5em;
 	border-radius: 1.0em;
-	color: #9eafba;
+	color: grey;
 	&:hover {
-		border: 2px solid #33acb7;
-		color: #33acb7;
+		border: 2px solid #4169E1;
+		color: #4169E1;
+		background: transparent;
 		a {
 			color: #33acb7 !important;
 		}
+	}
+}
+
+.sb {
+	outline: none;
+	border: 1px solid #4169E1;
+	padding: .5em 1.5em;
+	border-radius: 0.5em;
+	color: #4169E1;
+	&:hover {
+		border: 1px solid #4169E1;
+		color: #33acb7;
+		
 	}
 }
 
@@ -107,8 +124,9 @@ a {
 	#header {
 		padding: 1em 3em;
 		border-bottom: 1px solid #d6dce0;
-		background: #f5f7f9;
-		color: #9eafba;
+		background: #E0FFFF;
+		opacity: 0.6;
+		color: grey;
 		p {
 			display: inline;
 		}
